@@ -141,7 +141,7 @@ endif
 set foldcolumn=1
 
 " Display the margin
-let &colorcolumn="80,".join(range(120, 999), ",")
+set colorcolumn=80
 
 " Display the cursorline
 set cursorline
